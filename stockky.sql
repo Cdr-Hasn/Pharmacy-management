@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS stockyy;
-USE stockyy;
+CREATE DATABASE IF NOT EXISTS Stock;
+USE Stock;
 
 -- Création de la table Utilisateur
 CREATE TABLE IF NOT EXISTS Utilisateur (
@@ -49,4 +49,4 @@ INSERT INTO Produit (nom, categorie, reference, prix, quantite, fournisseur) VAL
     ('Produit 9', 'Catégorie C', 'REF009', 14.99, 35, 'Fournisseur Z'),
     ('Produit 10', 'Catégorie A', 'REF010', 19.99, 45, 'Fournisseur X');
 
--- Assurez-vous d'être connecté à la base de données "stockyy"
+-- Assurez-vous d'être connecté à la base de données "Stock"
